@@ -15,19 +15,43 @@
 
   <body>
     <header class="header">
-      <div class="procura">
-        <img src="./img/Group 35.svg" alt="logo" />
+      <section class="secure-section">
+        <div class="secure-purchase-item">
+          <img src="/img/ShieldCheck.svg" alt="compra segura" />
+          <p>Compra <strong>100% segura</strong></p>
+        </div>
+
+        <div class="secure-purchase-item">
+          <img src="/img/Truck.svg" alt="frete grátis" />
+          <p><strong>Frete grátis</strong> acima de R$ 200</p>
+        </div>
+
+        <div class="secure-purchase-item">
+          <img src="/img/CreditCard.svg" alt="parcele suas compras" />
+          <p><strong>Parcele</strong> suas compras</p>
+        </div>
+      </section>
+
+      <section class="search-section">
+        <img src="./img/Group 35.svg" alt="icon vtex" />
         <input
           type="text"
-          class="procura-input"
+          class="search-input"
           placeholder="O que você está buscando?"
+          aria-label="campo de busca"
         />
-      
-      </div>
 
-      <div class="container">
-        <nav class="menu">
-          <ul class="menu-lista">
+        <div class="action-icons">
+          <img src="/img/logo/Group.svg" alt="box" />
+          <img src="/img/logo/Heart.svg" alt="favoritos" />
+          <img src="/img/logo/UserCircle.svg" alt="login" />
+          <img src="/img/logo/ShoppingCart.svg" alt="carrinho" />
+        </div>
+      </section>
+
+      <section class="navigation-menu-section">
+        <nav>
+          <ul class="navigation-menu-list">
             <li><a href="#contato">todas categorias</a></li>
             <li><a href="#supermercado">supermercado</a></li>
             <li><a href="#livros">livros</a></li>
@@ -37,227 +61,256 @@
             <li><a href="#assinaturas">assinatura</a></li>
           </ul>
         </nav>
-      </div>
+      </section>
     </header>
 
-    <div class="promo">
-      <div class="promo-all">
-        <p>Venha conhecer nossas</p>
-        <p>promoções</p>
-        <p class="promo-text-50">50% Off nos produtos</p>
+    <main class="main">
+      <section class="promotion-banner-section">
+        <div class="promotion-text">
+          <p>Venha conhecer nossas</p>
+          <p>promoções</p>
+          <p class="promotion-text-50">50% Off nos produtos</p>
 
-        <button class="btn-produtos"><a href="#produto">Ver Produto</a></button>
+          <button class="btn-products">
+            <a href="#produto">Ver Produto</a>
+          </button>
+        </div>
+      </section>
+
+      <section class="menu-section">
+        <nav>
+          <ul class="menu">
+            <li class="menu-item">
+              <button>
+                <img
+                  src="/img/menu/monitorar-tablet-e-smartohone 1.svg"
+                  alt="tecnologia"
+                /></button
+              >Tecnologia
+            </li>
+
+            <li class="menu-item">
+              <button>
+                <img
+                  src="/img/menu/supermercados 1.svg"
+                  alt="supermercado"
+                /></button
+              >Supermercado
+            </li>
+
+            <li class="menu-item">
+              <button><img src="/img/menu/whiskey.svg" alt="bebidas" /></button
+              >Bebidas
+            </li>
+
+            <li class="menu-item">
+              <button>
+                <img
+                  src="/img/menu/ferramentas 1.svg"
+                  alt="ferramentas"
+                /></button
+              >Ferramentas
+            </li>
+
+            <li class="menu-item">
+              <button>
+                <img
+                  src="/img/menu/cuidados-de-saude 1.svg"
+                  alt="saúde"
+                /></button
+              >Saúde
+            </li>
+
+            <li class="menu-item">
+              <button>
+                <img src="/img/menu/corrida 1.svg" alt="esportes" /></button
+              >Esportes
+            </li>
+
+            <li class="menu-item">
+              <button><img src="/img/menu/moda 1.svg" alt="moda" /></button>Moda
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <h3>Produtos relacionados</h3>
+
+      <section class="categories-section">
+        <nav>
+          <ul class="categories">
+            <li><a href="#celular">Celular</a></li>
+            <li><a href="#acessorios">Acessórios</a></li>
+            <li><a href="#tablets">Tablets</a></li>
+            <li><a href="#notebooks">Notebooks</a></li>
+            <li><a href="#tvs">TVs</a></li>
+            <li><a href="#todos">Ver Todos</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="products-section">
+        <div class="products-item">
+          <img
+            class="products-img"
+            src="/img/Grupo de máscara 20 1.png"
+            alt=""
+          />
+          <p class="products-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <span class="products-old-price">R$ 28,90</span>
+          <span class="products-price">R$ 28,90</span>
+          <p class="products-description">ou 2x de R$ 49,95 sem juros</p>
+          <p class="products-deliver">Frete gratis</p>
+          <button class="products-btn">comprar</button>
+        </div>
+
+        <div class="products-item">
+          <img
+            class="products-img"
+            src="/img/Grupo de máscara 20 1.png"
+            alt=""
+          />
+          <p class="products-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <span class="products-old-price">R$ 28,90</span>
+          <span class="products-price">R$ 28,90</span>
+          <p class="products-description">ou 2x de R$ 49,95 sem juros</p>
+          <p class="products-deliver">Frete gratis</p>
+          <button class="products-btn">comprar</button>
+        </div>
+
+        <div class="products-item">
+          <img
+            class="products-img"
+            src="/img/Grupo de máscara 20 1.png"
+            alt=""
+          />
+          <p class="products-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <span class="products-old-price">R$ 28,90</span>
+          <span class="products-price">R$ 28,90</span>
+          <p class="products-description">ou 2x de R$ 49,95 sem juros</p>
+          <p class="products-deliver">Frete gratis</p>
+          <button class="products-btn">comprar</button>
+        </div>
+
+        <div class="products-item">
+          <img
+            class="products-img"
+            src="/img/Grupo de máscara 20 1.png"
+            alt=""
+          />
+          <p class="products-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <span class="products-old-price">R$ 28,90</span>
+          <span class="products-price">R$ 28,90</span>
+          <p class="products-description">ou 2x de R$ 49,95 sem juros</p>
+          <p class="products-deliver">Frete gratis</p>
+          <button class="products-btn">comprar</button>
+        </div>
+      </section>
+
+      <h3>Parceiros</h3>
+
+      <section class="partners-section">
+        <div class="partner-item">
+          <p class="partner-title">Parceiro 1</p>
+          <p class="partner-description">Lorem ipsum dolor sit</p>
+          <p class="partner-description">amet consectetur</p>
+          <button class="partner-btn">Confira</button>
+        </div>
+
+        <div class="partner-item">
+          <p class="partner-title">Parceiro 2</p>
+          <p class="partner-description">Lorem ipsum dolor sit</p>
+          <p class="partner-description">amet consectetur</p>
+          <button class="partner-btn">Confira</button>
+        </div>
+      </section>
+
+      <h3>Produtos relacionados</h3>
+
+      <section class="related-products-section">
+        <div class="product-item">
+          <p class="product-title">Produto 1</p>
+          <p class="product-description">Lorem ipsum dolor sit</p>
+          <p class="product-description">amet consectetur</p>
+          <button class="product-btn">Confira</button>
+        </div>
+
+        <div class="product-item">
+          <p class="product-title">Produto 2</p>
+          <p class="product-description">Lorem ipsum dolor sit</p>
+          <p class="product-description">amet consectetur</p>
+          <button class="product-btn">Confira</button>
+        </div>
+      </section>
+
+      <h3>Navegue por marcas</h3>
+      <section class="brands-section">
+        <div class="brand-circle">
+          <img src="/img/Group 35.svg" alt="Marca 1" />
+        </div>
+        <div class="brand-circle">
+          <img src="/img/Group 35.svg" alt="Marca 2" />
+        </div>
+        <div class="brand-circle">
+          <img src="/img/Group 35.svg" alt="Marca 3" />
+        </div>
+        <div class="brand-circle">
+          <img src="/img/Group 35.svg" alt="Marca 4" />
+        </div>
+        <div class="brand-circle">
+          <img src="/img/Group 35.svg" alt="Marca 5" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+
+      <div class="footer-section about">
+        <h4 class="footer-info">Sobre nós</h4>
+        <ul>
+          <li><a href="#conheca">Conheça</a></li>
+          <li><a href="#como-comprar">Como comprar</a></li>
+          <li><a href="#indicacao-desconto">Indicação e desconto</a></li>
+        </ul>
+      </div>
+
+      <div class="social-media">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+          <img src="/img/pagamentos/face.svg" alt="Facebook" />
+        </a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+          <img src="/img/pagamentos/-instagram.svg" alt="Instagram" />
+        </a>
+        <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+          <img src="/img/pagamentos/youtube.svg" alt="YouTube" />
+        </a>
       </div>
     </div>
 
-    <main class="main">
-      <nav>
-        <ul class="main-ul">
-          <li class="">
-            <button>
-              <img
-                src="/img/menu/monitorar-tablet-e-smartohone 1.svg"
-                alt=""
-              /></button
-            >Tecnologia
-          </li>
+      <div class="footer-info">
+    <h4>Informações úteis</h4>
+    <ul>
+      <li><a href="#fale-conosco">Fale conosco</a></li>
+      <li><a href="#duvidas">Dúvidas</a></li>
+      <li><a href="#prazos-entrega">Prazos de entrega</a></li>
+      <li><a href="#formas-pagamento">Formas de pagamento</a></li>
+      <li><a href="#politica-privacidade">Política de privacidade</a></li>
+      <li><a href="#trocas-devolucoes">Trocas e devoluções</a></li>
+    </ul>
+    </div>
 
-          <li>
-            <button><img src="/img/menu/supermercados 1.svg" alt="" /></button
-            >Supermercado
-          </li>
-
-          <li>
-            <button><img src="/img/menu/whiskey.svg" alt="" /></button>Bebidas
-          </li>
-
-          <li>
-            <button><img src="/img/menu/ferramentas 1.svg" alt="" /></button
-            >Ferramentas
-          </li>
-
-          <li>
-            <button>
-              <img src="/img/menu/cuidados-de-saude 1.svg" alt="" /></button
-            >Saúde
-          </li>
-
-          <li>
-            <button><img src="/img/menu/corrida 1.svg" alt="" /></button
-            >Esportes
-          </li>
-
-          <li>
-            <button><img src="/img/menu/moda 1.svg" alt="" /></button>Moda
-          </li>
-        </ul>
-      </nav>
-      
-        <h3>Produtos relacionados</h3>
-     
-
-      <div>
-        <ul class="categorias">
-          <li><a href="#celular">celular</a></li>
-          <li><a href="#acessorios">acessorios</a></li>
-          <li><a href="#tablets">tablets</a></li>
-          <li><a href="#notebooks">notebooks</a></li>
-          <li><a href="#tvs">tvs</a></li>
-          <li><a href="#todos">ver todos</a></li>
-        </ul>
-      </div>
-
-      <div class="phone">
-        <div class="phone-item">
-          <img
-            class="phone-item-img"
-            src="/img/Grupo de máscara 20 1.png"
-            alt=""
-          />
-          <p class="phone-item-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <span class="phone-item-old-price">R$ 28,90</span>
-          <span class="phone-item-price">R$ 28,90</span>
-          <p class="phone-item-desc">ou 2x de R$ 49,95 sem juros</p>
-          <p class="phone-item-deliver">Frete gratis</p>
-          <button class="phone-item-btn">comprar</button>
-        </div>
-
-        <div class="phone-item">
-          <img
-            class="phone-item-img"
-            src="/img/Grupo de máscara 20 1.png"
-            alt=""
-          />
-          <p class="phone-item-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <span class="phone-item-old-price">R$ 28,90</span>
-          <span class="phone-item-price">R$ 28,90</span>
-          <p class="phone-item-desc">ou 2x de R$ 49,95 sem juros</p>
-          <p class="phone-item-deliver">Frete gratis</p>
-          <button class="phone-item-btn">comprar</button>
-        </div>
-
-        <div class="phone-item">
-          <img
-            class="phone-item-img"
-            src="/img/Grupo de máscara 20 1.png"
-            alt=""
-          />
-          <p class="phone-item-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <span class="phone-item-old-price">R$ 28,90</span>
-          <span class="phone-item-price">R$ 28,90</span>
-          <p class="phone-item-desc">ou 2x de R$ 49,95 sem juros</p>
-          <p class="phone-item-deliver">Frete gratis</p>
-          <button class="phone-item-btn">comprar</button>
-        </div>
-
-        <div class="phone-item">
-          <img
-            class="phone-item-img"
-            src="/img/Grupo de máscara 20 1.png"
-            alt=""
-          />
-          <p class="phone-item-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <span class="phone-item-old-price">R$ 28,90</span>
-          <span class="phone-item-price">R$ 28,90</span>
-          <p class="phone-item-desc">ou 2x de R$ 49,95 sem juros</p>
-          <p class="phone-item-deliver">Frete gratis</p>
-          <button class="phone-item-btn">comprar</button>
-        </div>
-      </div>
-
-      <h3>Parceiros</h3>
-      <div class="parceiros">
-        <div class="parceiros-img">
-          <p class="parceiros-title">Parceiros</p>
-          <p class="parceiros-text">Lorem ipsum dolor sit</p>
-          <p class="parceiros-text">amet consectetur</p>
-
-          <button class="parceiros-btn">confira</button>
-        </div>
-
-        <div class="parceiros-img">
-          <p class="parceiros-title">Parceiros</p>
-          <p class="parceiros-text">Lorem ipsum dolor sit</p>
-          <p class="parceiros-text">amet consectetur</p>
-
-          <button class="parceiros-btn">confira</button>
-        </div>
-      </div>
-
-      <h3>Produtos</h3>
-      <div class="parceiros">
-        <div class="parceiros-img">
-          <p class="parceiros-title">Produtos</p>
-          <p class="parceiros-text">Lorem ipsum dolor sit</p>
-          <p class="parceiros-text">amet consectetur</p>
-
-          <button class="parceiros-btn">confira</button>
-        </div>
-
-        <div class="parceiros-img">
-          <p class="parceiros-title">Produtos</p>
-          <p class="parceiros-text">Lorem ipsum dolor sit</p>
-          <p class="parceiros-text">amet consectetur</p>
-
-          <button class="parceiros-btn">confira</button>
-        </div>
-      </div>
-
-      <h3>Navegue por marcas</h3>
-
-      <div class="marcas">
-        <div class="marcas-circle"><img src="/img/Group 35.svg" alt="" /></div>
-
-        <div class="marcas-circle"><img src="/img/Group 35.svg" alt="" /></div>
-
-        <div class="marcas-circle"><img src="/img/Group 35.svg" alt="" /></div>
-
-        <div class="marcas-circle"><img src="/img/Group 35.svg" alt="" /></div>
-
-        <div class="marcas-circle"><img src="/img/Group 35.svg" alt="" /></div>
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="about">
-        <ul>
-          <li class="footer-info">Sobre nós</li>
-          <li>conheça</li>
-          <li>como comprar</li>
-          <li>indicação e desconto</li>
-          <li class="social">
-            <img src="/img/pagamentos/face.svg" alt="" />
-            <img src="/img/pagamentos/-instagram.svg" alt="" />
-            <img src="/img/pagamentos/youtube.svg" alt="" />
-          </li>
-        </ul>
-      </div>
-
-      <div class="info">
-        <ul>
-          <li class="footer-info">Informaçoes úteis</li>
-          <li>fale conosco</li>
-          <li>dúvidas</li>
-          <li>prazos de entrega</li>
-          <li>formas de pagamento</li>
-          <li>política de privacidade</li>
-          <li>trocas e devoluções</li>
-        </ul>
-      </div>
-
-      <div class="payments">
-        <ul>
-          <li class="footer-info">formas de pagamento</li>
-          <li><img src="/img/pagamentos/formas_pagamento.png" alt="" /></li>
-        </ul>
-      </div>
+    <div class="footer-section payments">
+      <h4>Formas de pagamento</h4>
+      <img src="/img/pagamentos/formas_pagamento.png" alt="Formas de pagamento" />
+    </div>
 
       <div class="cadastro">
         <p class="cadastro-text-1">cadastre-se e receba nossas</p>

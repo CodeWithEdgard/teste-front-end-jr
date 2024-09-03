@@ -1,0 +1,24 @@
+
+.menu {
+  padding: 0px;
+  display: flex;
+  gap: 45px
+}
+.menu button {
+  padding: 34px;
+  border-radius: 10px;
+  width: 144px;
+  height: 174px;
+  border: none;
+  cursor: pointer;
+}
+.menu button:hover {
+  background-color: #ffffff;
+}
+.menu-item {
+  cursor: pointer;
+  text-align: center;
+}
+.menu-item:hover {
+  color: #f71963;
+}

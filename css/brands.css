@@ -1,0 +1,16 @@
+
+.brands-section {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8%;
+}
+.brand-circle {
+  width: 211px;
+  height: 211px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}

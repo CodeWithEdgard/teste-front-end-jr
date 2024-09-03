@@ -1,0 +1,25 @@
+.header {
+  padding-left: 86px;
+  padding-right: 86px;
+  width: 1280px;
+}
+.secure-section {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  padding-left: 80px;
+}
+.secure-purchase-item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  
+}
+.secure-section p {
+  font-size: 12px;
+  color: #9f9f9f;
+}
+.secure-section strong {
+  color: #f71963;
+}
+

@@ -1,0 +1,27 @@
+.search-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 40px;
+  padding: 10px;
+  border-bottom: 1px solid #f0f0f0;
+  gap: 95px;
+ }
+ .search-input {
+   width: 657px;
+   border-radius: 8px;
+   background: #F6F5F2;
+   padding: 15px;
+   border: none;
+ }
+ 
+ .action-icons {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+ }
+ .action-icons img {
+   height: 25px;
+   cursor: pointer;
+ }
+ 
