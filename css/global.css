@@ -6,6 +6,13 @@ body {
   width: 1440px;
 }
 
+.main {
+  width: 1280px;
+  margin-left: 86px;
+  display: grid;
+  place-content: space-between;
+}
+
 p,
 h1,
 h2,
@@ -43,9 +50,10 @@ button {
   display: block;
 }
 
-.main {
-  width: 1280px;
-  margin-left: 86px;
-  display: grid;
-  place-content: space-between;
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #f71963;
+  padding: 30px;
 }

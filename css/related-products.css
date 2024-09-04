@@ -7,7 +7,7 @@
 .product-item {
   width: 574px;
   height: 350px;
-  background: url('/img/image 45.png') no-repeat;
+  background: url('/img/partners/image 45.png') no-repeat;
   border-radius: 20px;
 }
 
@@ -38,4 +38,10 @@
   text-transform: uppercase;
   margin-left: 40px;
   margin-top: 70px;
+  cursor: pointer;
+}
+
+.product-btn:hover {
+  transform: scale(1.03);
+  transition: background 0.3s ease, transform 0.3s ease;
 }
