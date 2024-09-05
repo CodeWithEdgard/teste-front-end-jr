@@ -1,4 +1,15 @@
 
+.menu-container {
+  display: flex;
+  place-content: space-between;
+  
+}
+.menu-section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+}
+
 .menu {
   padding: 0px;
   display: flex;

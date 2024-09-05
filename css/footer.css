@@ -1,9 +1,25 @@
 .footer-section {
-  width: 1600px;
-  height: 325px;
   background: #2a2a2a;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.b-line {
+  border-top: 1px solid #ffffff;
+  display: block;
+  width: 1900px;
+}
+
+.copy {
+  background-color: #2a2a2a;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .social-media {
@@ -22,6 +38,7 @@
 }
 .footer-subtitle {
   margin-left: 80px;
+  
 }
 
 .footer-info {
@@ -29,6 +46,7 @@
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
+  
 }
 
 .payments h4 {
@@ -37,6 +55,7 @@
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
+  
 }
 
 
@@ -45,8 +64,7 @@
   height: 260px;
   background: #ffffff;
   border-radius: 10px;
-  margin-top: 15px;
-  margin-right: 20px;
+  
 }
 .register-text-1 {
   padding-top: 30px;
@@ -95,15 +113,7 @@
   text-transform: uppercase;
   cursor: pointer;
 }
-.copy {
-  height: 70px;
-  padding-top: 30px;
-  background-color: #2a2a2a;
-  justify-content: space-between;
-  border-top: 1px solid #ffffff;
-  width: 1600px;
-  display: flex;
-}
+
 .copy-text {
   font-size: 10px;
   font-weight:400;
